@@ -11,3 +11,80 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sura-name-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sura-name {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(36, 28, 28);
+}
+
+.sura-eng-translation {
+  font-size: 1.5rem;
+  color: rgb(36, 28, 28);
+}
+
+.sura-ayah-revelation {
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+  padding: 5px;
+}
+
+.sura-total-ayah {
+  margin-right: 30px;
+  font-size: 1.1rem;
+  color: rgb(36, 28, 28);
+}
+
+.sura-revelation-type {
+  font-size: 1.1rem;
+  color: rgb(36, 28, 28);
+}
+
+.seperator {
+  height: 1px;
+  width: 100%;
+  color: black;
+  border: 1px solid rgb(126, 121, 121);
+}
+
+.content {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.sura-ayah-content {
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 500;
+}
+.translate {
+  font-size: 1.1rem;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 800;
+}
+.translate span {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.surah-details {
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: right;
+  margin-right: 20px;
+}
+
